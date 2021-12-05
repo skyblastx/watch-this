@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sampleflutter/DemoPage.dart';
+import 'package:sampleflutter/demopage.dart';
 
 void main() {
   runApp(const TabBarDemo());
