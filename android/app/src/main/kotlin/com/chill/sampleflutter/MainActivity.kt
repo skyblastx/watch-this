@@ -1,4 +1,4 @@
-package com.chill.sampleflutter
+package com.chill.watchthis
 
 import io.flutter.embedding.android.FlutterActivity
 

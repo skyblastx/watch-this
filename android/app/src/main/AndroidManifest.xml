@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.chill.sampleflutter">
+    package="com.chill.watchthis">
    <application
-        android:label="sampleflutter"
+        android:label="Watch This"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
