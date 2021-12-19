@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:watch_this/demopage.dart';
+import 'landing/landing_tab.dart';
 
 void main() {
   runApp(const MyApp());
@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const TabBarDemo();
+    return const LandingTab();
   }
 }
 
