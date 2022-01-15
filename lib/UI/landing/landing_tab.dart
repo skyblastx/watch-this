@@ -1,8 +1,8 @@
 import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
-import 'package:watch_this/landing/tabs/home_tab.dart';
-import 'package:watch_this/landing/tabs/search_tab.dart';
-import 'package:watch_this/landing/tabs/bookmark_tab.dart';
+import 'package:wantap/UI/landing/tabs/home_tab.dart';
+import 'package:wantap/UI/landing/tabs/search_tab.dart';
+import 'package:wantap/UI/landing/tabs/bookmark_tab.dart';
 
 class LandingTab extends StatefulWidget {
   const LandingTab({Key? key}) : super(key: key);
@@ -22,6 +22,7 @@ class _LandingTabState extends State<LandingTab> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.deepPurple,
       body: PageTransitionSwitcher(
           transitionBuilder: (child, primaryAnimation, secondaryAnimation) =>
               FadeThroughTransition(

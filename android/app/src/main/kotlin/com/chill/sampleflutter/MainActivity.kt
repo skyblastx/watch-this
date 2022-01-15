@@ -1,4 +1,4 @@
-package com.chill.watchthis
+package com.chill.wantap
 
 import io.flutter.embedding.android.FlutterActivity
 

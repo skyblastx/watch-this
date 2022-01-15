@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'landing/landing_tab.dart';
+import 'UI/landing/landing_tab.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         } else {
           // Loading is done, return the app:
           return MaterialApp(
-            title: 'Watch This',
+            title: 'Wantap',
             theme: ThemeData(
               primarySwatch: Colors.purple,
             ),
